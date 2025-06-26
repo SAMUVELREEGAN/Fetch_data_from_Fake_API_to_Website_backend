@@ -9,7 +9,7 @@ const userShema = new mongoose.Schema({
         city:{type:String , required:true},
         street:{type:String , required:true},
         number:{type:Number , required:true},
-        Zipcode:{type:Number , required:true},
+        zipcode:{type:Number , required:true},
     },
     email:{type:String , required:true},
     username:{type:String , required:true},
