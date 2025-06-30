@@ -29,7 +29,18 @@ exports.insert = [
   },
 ];
 
-
 exports.list = [
-    (req,res)=>UserModel.find().then((saved)=>res.send(saved)).catch((er)=>res.send(er))
-]
+  (req, res) =>
+    UserModel.find()
+      .then((saved) => res.send(saved))
+      .catch((er) => res.send(er)),
+];
+
+exports.login = [
+  (req, res) => {
+    UserModel.findOne({
+      username: req.body.username,
+      password: req.body.password,
+    }).then((users)=>{users?res.send(users):res.send(false)}).catch((er)=>{res.send(er)});
+  },
+];
