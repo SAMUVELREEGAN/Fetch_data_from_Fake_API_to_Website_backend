@@ -11,16 +11,15 @@ const cors = require('cors')
 
 app.use(cors())
 
-const MONGODB_URL = "mongodb://127.0.0.1:27017/task_api";
+const MONGO_URI = "mongodb+srv://fake-api:LmfjH-jxPQN4TSN@samuvel.b2tb1.mongodb.net/task_api?retryWrites=true&w=majority";
 
-mongoose
-  .connect(MONGODB_URL)
-  .then(() => {
-    console.log(`${MONGODB_URL} is connected`);
-  })
-  .catch((er) => {
-    console.log(er.message);
-  });
+mongoose.connect(MONGO_URI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+})
+.then(() => console.log('MongoDB connected'))
+.catch((err) => console.log('Connection error:', err.message));
+
 
 // app.get('/' , (req , res) =>{
 //     res.send("Welcome World")
