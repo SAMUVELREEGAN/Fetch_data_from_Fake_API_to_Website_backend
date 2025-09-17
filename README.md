@@ -27,7 +27,8 @@ It is built with **Node.js** and **Express.js**, connected to **MongoDB** for da
 
 ## 👩‍💻 Contribution Stats
 
-![Contributors](https://img.shields.io/github/contributors/SAMUVELREEGAN/Fetch_data_from_Fake_API_to_Website_backend?color=brightgreen&style=for-the-badge)  ![Open Issues](https://img.shields.io/github/issues/SAMUVELREEGAN/Fetch_data_from_Fake_API_to_Website_backend?color=blue&style=for-the-badge) ![Forks](https://img.shields.io/github/forks/SAMUVELREEGAN/Fetch_data_from_Fake_API_to_Website_backend?color=yellow&style=for-the-badge)  
+![Contributors](https://img.shields.io/github/contributors/SAMUVELREEGAN/Fetch_data_from_Fake_API_to_Website_backend?color=brightgreen&style=for-the-badge) ![Forks](https://img.shields.io/github/forks/SAMUVELREEGAN/Fetch_data_from_Fake_API_to_Website_backend?color=yellow&style=for-the-badge)
+
  
 
 
@@ -49,10 +50,10 @@ Example:
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/SAMUVELREEGAN/Fetch_data_from_Fake_API_to_Website_backend.git
+   git clone https://github.com/SAMUVELREEGAN/Fetch_data_from_Fake_API_to_Website_backend_backend.git
 
 2. Navigate to the project folder:
-  cd Fetch_data_from_Fake_API_to_Website_backend
+  cd Fetch_data_from_Fake_API_to_Website_backend_backend
 
 3. Install dependencies:
   npm install
@@ -70,5 +71,3 @@ Example:
     4.Push to the branch (git push origin feature/YourFeature)
 
     5.Open a Pull Request
-
-
