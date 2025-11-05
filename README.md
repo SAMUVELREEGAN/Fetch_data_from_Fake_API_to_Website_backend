@@ -8,7 +8,6 @@ It is built with **Node.js** and **Express.js**, connected to **MongoDB** for da
 
 ---
 
-
 ## 🚀 Features
 
 - 🔹 Fetch data from an external fake API (`https://fakestoreapi.com/`)  
